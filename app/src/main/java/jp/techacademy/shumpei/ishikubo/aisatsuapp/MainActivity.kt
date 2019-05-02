@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         if ((hour >= 2)&&(hour <= 9)) {
             greeting = "おはよう"
-        } else if (hour <= 17) {
+        } else if ((hour >= 2)&&(hour <= 17)) {
             greeting = "こんにちは"
         } else {
             greeting = "こんばんは"
